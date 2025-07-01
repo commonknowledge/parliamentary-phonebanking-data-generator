@@ -1,5 +1,23 @@
 import pandas as pd
 import os
+from difflib import SequenceMatcher
+
+def similarity(a, b):
+    """Calculate similarity between two strings"""
+    return SequenceMatcher(None, a.lower().strip(), b.lower().strip()).ratio()
+
+def fuzzy_match_name(target_name, name_list, threshold=0.8):
+    """Find the best fuzzy match for a name in a list"""
+    best_match = None
+    best_score = 0
+    
+    for name in name_list:
+        score = similarity(target_name, name)
+        if score > best_score and score >= threshold:
+            best_score = score
+            best_match = name
+    
+    return best_match, best_score
 
 print("Creating ranked contact sheet for anti-proscription campaign...")
 
@@ -10,6 +28,19 @@ try:
 except Exception as e:
     print(f"Error loading contact sheet: {e}")
     exit(1)
+
+# Read known supporters to exclude
+known_supporters = []
+try:
+    with open('data/known_supporters.txt', 'r') as f:
+        for line in f:
+            line = line.strip()
+            # Skip empty lines and comments
+            if line and not line.startswith('#'):
+                known_supporters.append(line)
+    print(f"Loaded {len(known_supporters)} known supporters to exclude")
+except Exception as e:
+    print(f"Warning: Could not load known supporters file: {e}")
 
 # Filter out MPs we don't want to contact
 print("Applying filters...")
@@ -39,6 +70,26 @@ before_senior_filter = len(contact_df)
 contact_df = contact_df[~contact_df['Government position'].apply(is_senior_government_official)]
 senior_removed = before_senior_filter - len(contact_df)
 print(f"Removed {senior_removed} senior government officials (Secretaries of State, PM, etc.)")
+
+# Remove known supporters using fuzzy matching
+if known_supporters:
+    before_supporters_filter = len(contact_df)
+    supporters_to_remove = []
+    
+    # Get all MP names for matching
+    mp_names = contact_df['Full name'].tolist()
+    
+    # Find matches for each known supporter
+    for supporter in known_supporters:
+        match, score = fuzzy_match_name(supporter, mp_names, threshold=0.8)
+        if match:
+            supporters_to_remove.append(match)
+            print(f"  Fuzzy matched '{supporter}' -> '{match}' (score: {score:.2f})")
+    
+    # Remove the matched supporters
+    contact_df = contact_df[~contact_df['Full name'].isin(supporters_to_remove)]
+    supporters_removed = before_supporters_filter - len(contact_df)
+    print(f"Removed {supporters_removed} known supporters from Socialist Campaign Group")
 
 print(f"Remaining MPs after filtering: {len(contact_df)}")
 
