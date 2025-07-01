@@ -23,7 +23,7 @@ print("Creating ranked contact sheet for anti-proscription campaign...")
 
 # Read the existing contact sheet
 try:
-    contact_df = pd.read_csv('output/contact_sheet.csv')
+    contact_df = pd.read_csv('output/contact_mps.csv')
     print(f"Loaded {len(contact_df)} MPs from contact sheet")
 except Exception as e:
     print(f"Error loading contact sheet: {e}")
@@ -32,7 +32,7 @@ except Exception as e:
 # Read known supporters to exclude
 known_supporters = []
 try:
-    with open('data/known_supporters.txt', 'r') as f:
+    with open('data/exclude_mps.txt', 'r') as f:
         for line in f:
             line = line.strip()
             # Skip empty lines and comments
@@ -91,6 +91,14 @@ if known_supporters:
     supporters_removed = before_supporters_filter - len(contact_df)
     print(f"Removed {supporters_removed} known supporters from Socialist Campaign Group")
 
+# Remove fash parties
+fash_parties = ['Democratic Unionist Party', 'Reform UK', 'Traditional Unionist Voice']
+before_fash_filter = len(contact_df)
+contact_df = contact_df[~contact_df['Party'].isin(fash_parties)]
+fash_removed = before_fash_filter - len(contact_df) 
+print(f"Removed {fash_removed} DUP, Reform UK and Traditional Unionist Voice MPs")
+
+
 print(f"Remaining MPs after filtering: {len(contact_df)}")
 
 # Create ranking system
@@ -102,7 +110,7 @@ def get_priority_rank(row):
     3 = Liberal Democrat backbenchers
     4 = Conservative backbenchers
     5 = Government ministers (lowest priority)
-    6 = DUP and Reform UK (lowest priority)
+    6 = DUP, Reform UK and Traditional Unionist Voice (lowest priority)
     """
     party = row['Party']
     has_gov_position = pd.notna(row['Government position']) and str(row['Government position']).strip() != ''
@@ -112,7 +120,7 @@ def get_priority_rank(row):
         return 5
     
     # Third parties get highest priority
-    major_parties = ['Labour', 'Labour (Co-op)', 'Conservative', 'Liberal Democrat', 'Democratic Unionist Party', 'Reform UK']
+    major_parties = ['Labour', 'Labour (Co-op)', 'Conservative', 'Liberal Democrat', 'Democratic Unionist Party', 'Reform UK', 'Traditional Unionist Voice']
 
     if party not in major_parties:
         return 1
@@ -129,8 +137,8 @@ def get_priority_rank(row):
     if party in ['Conservative']:
         return 4
     
-    # DUP and Reform UK go to bottom regardless of party
-    if party in ['Democratic Unionist Party', 'Reform UK']:
+    # DUP, Reform UK and Traditional Unionist Voice go to bottom regardless of party
+    if party in fash_parties:
         return 6
     
     # Fallback
@@ -159,7 +167,7 @@ rank_labels = {
     3: "Liberal Democrat backbenchers",
     4: "Conservative backbenchers",
     5: "Government ministers (lowest priority)",
-    6: "DUP and Reform UK (lowest priority)"
+    6: "DUP, Reform UK and Traditional Unionist Voice (lowest priority)"
 }
 
 for rank, count in rank_counts.items():
@@ -168,7 +176,7 @@ for rank, count in rank_counts.items():
 # Save ranked contact sheet
 output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
-output_file = os.path.join(output_dir, "ranked_contact_sheet.csv")
+output_file = os.path.join(output_dir, "ranked_contact_mps.csv")
 
 ranked_df.to_csv(output_file, index=False)
 
