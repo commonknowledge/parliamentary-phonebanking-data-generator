@@ -49,6 +49,7 @@ try:
         # Initialize phone numbers
         mp_data['parliamentary_phone'] = ''
         mp_data['constituency_phone'] = ''
+        mp_data['phone_number_1'] = ''
         
         # Get addresses and extract phone numbers
         addresses = member.find('Addresses')
@@ -65,6 +66,8 @@ try:
                                 mp_data['parliamentary_phone'] = phone_number
                             elif type_text == 'Constituency office':
                                 mp_data['constituency_phone'] = phone_number
+
+        mp_data['phone_number_1'] = mp_data['parliamentary_phone'] or mp_data['constituency_phone']
         
         contact_data.append(mp_data)
         
@@ -94,11 +97,16 @@ try:
     appointment_df = pd.read_csv('data/government-positions/appointment.csv')
     
     # Join to get current government positions
-    # Filter for current appointments (where end_date is null or empty)
+    # Filter for appointments starting after July 4th 2024 and with no end date
     current_appointments = appointment_df[
-        (appointment_df['end_date'].isna()) | 
-        (appointment_df['end_date'] == '') |
-        (appointment_df['end_date'].str.strip() == '')
+        (
+            (pd.to_datetime(appointment_df['start_date']) >= '2024-07-06') &
+            (
+                (appointment_df['end_date'].isna()) | 
+                (appointment_df['end_date'] == '') |
+                (appointment_df['end_date'].str.strip() == '')
+            )
+        )
     ]
     
     # Join with person and post data
@@ -184,6 +192,7 @@ final_columns = {
     'full_name': 'Full name',
     'Party': 'Party',
     'government_position': 'Government position',
+    'phone_number_1': 'Phone',
     'parliamentary_phone': 'Parliamentary phone number',
     'constituency_phone': 'Constituency phone number',
     'Email': 'Email address'

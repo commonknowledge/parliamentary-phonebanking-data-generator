@@ -29,6 +29,12 @@ except Exception as e:
     print(f"Error loading contact sheet: {e}")
     exit(1)
 
+# Exclude MPs who don't have phone_number_1
+before_phone_filter = len(contact_df)
+contact_df = contact_df[contact_df['Phone'] != '']
+phone_removed = before_phone_filter - len(contact_df)
+print(f"Removed {phone_removed} MPs without a phone number")
+
 # Read known supporters to exclude
 known_supporters = []
 try:
@@ -92,12 +98,11 @@ if known_supporters:
     print(f"Removed {supporters_removed} known supporters from Socialist Campaign Group")
 
 # Remove fash parties
-fash_parties = ['Democratic Unionist Party', 'Reform UK', 'Traditional Unionist Voice']
+exclude_parties = ['Democratic Unionist Party', 'Reform UK', 'Traditional Unionist Voice']
 before_fash_filter = len(contact_df)
-contact_df = contact_df[~contact_df['Party'].isin(fash_parties)]
+contact_df = contact_df[~contact_df['Party'].isin(exclude_parties)]
 fash_removed = before_fash_filter - len(contact_df) 
 print(f"Removed {fash_removed} DUP, Reform UK and Traditional Unionist Voice MPs")
-
 
 print(f"Remaining MPs after filtering: {len(contact_df)}")
 
@@ -138,7 +143,7 @@ def get_priority_rank(row):
         return 4
     
     # DUP, Reform UK and Traditional Unionist Voice go to bottom regardless of party
-    if party in fash_parties:
+    if party in exclude_parties:
         return 6
     
     # Fallback
@@ -151,7 +156,6 @@ contact_df['priority_rank'] = contact_df.apply(get_priority_rank, axis=1)
 # Sort by priority rank, then by party, then by last name
 contact_df_sorted = contact_df.sort_values([
     'priority_rank', 
-    'Party', 
     'Last name'
 ])
 
