@@ -15,49 +15,49 @@ print("Parsing MP contact details XML...")
 contact_data = []
 
 try:
-    tree = ET.parse('data/mp_contact_details.xml')
+    tree = ET.parse('data/lords_contact_details.xml')
     root = tree.getroot()
     
     # Find all Member elements
     for member in root.findall('.//Member'):
-        mp_data = {}
+        lords_data = {}
         
         # Get basic MP info
-        mp_data['id_parliament'] = float(member.get('Member_Id', ''))
+        lords_data['id_parliament'] = float(member.get('Member_Id', ''))
         
         # Get display name
         display_as = member.find('DisplayAs')
         if display_as is not None:
-            mp_data['full_name'] = display_as.text.strip() if display_as.text else ''
+            lords_data['full_name'] = display_as.text.strip() if display_as.text else ''
         else:
-            mp_data['full_name'] = ''
+            lords_data['full_name'] = ''
         
         # Split name into first and last
-        name_parts = mp_data['full_name'].split()
+        name_parts = lords_data['full_name'].split()
         if len(name_parts) >= 2:
             # Remove titles and get actual names
             filtered_parts = [part for part in name_parts if not part.lower() in ['mr', 'mrs', 'ms', 'dr', 'sir', 'dame', 'lord', 'lady', 'hon', 'rt']]
             if len(filtered_parts) >= 2:
-                mp_data['first_name'] = filtered_parts[0]
-                mp_data['last_name'] = ' '.join(filtered_parts[1:])
+                lords_data['first_name'] = filtered_parts[0]
+                lords_data['last_name'] = ' '.join(filtered_parts[1:])
             else:
-                mp_data['first_name'] = name_parts[0] if name_parts else ''
-                mp_data['last_name'] = ' '.join(name_parts[1:]) if len(name_parts) > 1 else ''
+                lords_data['first_name'] = name_parts[0] if name_parts else ''
+                lords_data['last_name'] = ' '.join(name_parts[1:]) if len(name_parts) > 1 else ''
         else:
-            mp_data['first_name'] = mp_data['full_name']
-            mp_data['last_name'] = ''
+            lords_data['first_name'] = lords_data['full_name']
+            lords_data['last_name'] = ''
 
         # Get party
         party_elem = member.find('Party')
         if party_elem is not None:
-            mp_data['Party'] = party_elem.text.strip()
+            lords_data['Party'] = party_elem.text.strip()
         else:
-            mp_data['Party'] = ''
+            lords_data['Party'] = ''
         
         # Initialize phone numbers
-        mp_data['parliamentary_phone'] = ''
-        mp_data['constituency_phone'] = ''
-        mp_data['phone_number_1'] = ''
+        lords_data['parliamentary_phone'] = ''
+        lords_data['constituency_phone'] = ''
+        lords_data['phone_number_1'] = ''
         
         # Get addresses and extract phone numbers
         addresses = member.find('Addresses')
@@ -72,19 +72,19 @@ try:
                         phone_number = phone_elem.text.strip()
                         if phone_number:  # Only add if not empty
                             if type_text == 'Parliamentary office':
-                                mp_data['parliamentary_phone'] = phone_number
+                                lords_data['parliamentary_phone'] = phone_number
                             elif type_text == 'Constituency office':
-                                mp_data['constituency_phone'] = phone_number
+                                lords_data['constituency_phone'] = phone_number
                         if email_elem is not None and email_elem.text:
                             email_address = email_elem.text.strip()
                             if type_text == 'Parliamentary office':
-                                mp_data['parliamentary_email_address'] = email_address
+                                lords_data['parliamentary_email_address'] = email_address
                             elif type_text == 'Constituency office':
-                                mp_data['constituency_email_address'] = email_address
+                                lords_data['constituency_email_address'] = email_address
 
-        mp_data['phone_number_1'] = mp_data['parliamentary_phone'] or mp_data['constituency_phone']
+        lords_data['phone_number_1'] = lords_data['parliamentary_phone'] or lords_data['constituency_phone']
         
-        contact_data.append(mp_data)
+        contact_data.append(lords_data)
         
 except Exception as e:
     print(f"Error parsing XML: {e}")
@@ -187,7 +187,7 @@ for old_col, new_col in final_columns.items():
         contact_sheet[new_col] = ''
 
 # Export to CSV
-output_file = os.path.join(output_dir, "contact_mps.csv")
+output_file = os.path.join(output_dir, "contact_lords.csv")
 contact_sheet.to_csv(output_file, index=False)
 
 print(f"\n✅ Contact sheet successfully created: {output_file}")

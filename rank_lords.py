@@ -180,7 +180,7 @@ for rank, count in rank_counts.items():
 # Save ranked contact sheet
 output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
-output_file = os.path.join(output_dir, "ranked_contact_mps.csv")
+output_file = os.path.join(output_dir, "ranked_contact_lords.csv")
 
 ranked_df.to_csv(output_file, index=False)
 
