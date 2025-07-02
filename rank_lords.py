@@ -38,7 +38,7 @@ for index, row in contact_df.iterrows():
 # Read known supporters to exclude
 known_supporters = []
 try:
-    with open('data/exclude_mps.txt', 'r') as f:
+    with open('data/exclude_lords.txt', 'r') as f:
         for line in f:
             line = line.strip()
             # Skip empty lines and comments
