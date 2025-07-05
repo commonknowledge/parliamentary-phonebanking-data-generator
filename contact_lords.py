@@ -10,8 +10,8 @@ os.makedirs(output_dir, exist_ok=True)
 
 print("Starting contact sheet creation...")
 
-# First, parse the MP contact details XML
-print("Parsing MP contact details XML...")
+# First, parse the lord contact details XML
+print("Parsing lord contact details XML...")
 contact_data = []
 
 try:
@@ -22,7 +22,7 @@ try:
     for member in root.findall('.//Member'):
         lords_data = {}
         
-        # Get basic MP info
+        # Get basic lord info
         lords_data['id_parliament'] = float(member.get('Member_Id', ''))
         
         # Get display name
@@ -89,46 +89,47 @@ try:
 except Exception as e:
     print(f"Error parsing XML: {e}")
 
-print(f"Extracted {len(contact_data)} MP contact records from XML")
+print(f"Extracted {len(contact_data)} lord contact records from XML")
 
 # Convert to DataFrame
 contact_df = pd.DataFrame(contact_data)
 contact_df['id_parliament'] = contact_df['id_parliament'].astype(int)
 
-print("contact_df")
-print(contact_df[contact_df['id_parliament'] == 4514])
-
 # Load government positions data
 print("Loading government positions data...")
 try:
     # Load the CSV files
-    person_df = pd.read_csv('data/government-positions/person.csv')
-    post_df = pd.read_csv('data/government-positions/post.csv')
-    appointment_df = pd.read_csv('data/government-positions/appointment.csv')
+    person_df = pd.read_csv('data/government-positions/person.csv', header=0)
+    post_df = pd.read_csv('data/government-positions/post.csv', header=0)
+    appointment_df = pd.read_csv('data/government-positions/appointment.csv', header=0)
     
     # Join to get current government positions
     # Filter for appointments starting after July 4th 2024 and with no end date
     current_appointments = appointment_df[
-        # pd.to_datetime(appointment_df['start_date']) >= datetime.datetime(2024, 7, 6)
-        # empty or null
-        (appointment_df['end_date'].isna()) | (appointment_df['end_date'] == '') | (appointment_df['end_date'].str.strip() == '')
-        # or end date is before 2025-06-01
-        | (pd.to_datetime(appointment_df['end_date']) > datetime.datetime(2025, 6, 1))
+        (appointment_df['end_date'].isna())
     ]
     
     # Join with person and post data
-    gov_positions = current_appointments.merge(
-        person_df[['id', 'name', 'id_parliament']], 
-        left_on='person_id', 
-        right_on='id', 
-        how='left'
+    gov_positions = person_df.merge(
+        current_appointments,
+        left_on='id',
+        right_on='person_id',
+        how='left',
+        suffixes=('_person', '_appointment'),
     ).merge(
-        post_df[['id', 'name']], 
+        post_df, 
         left_on='post_id', 
         right_on='id', 
         how='left',
         suffixes=('_person', '_post')
     )
+
+    # remove empty post_id
+    gov_positions['id_parliament'] = gov_positions['id_parliament'].fillna(0).astype(int)
+    gov_positions = gov_positions[gov_positions['post_id'].notna()]
+
+    print("--gov_positions")
+    print(gov_positions[['id_parliament', 'name_person', 'name_post']].head())
     
     print(f"Found {len(current_appointments)} current government appointments")
     print(f"Successfully joined {len(gov_positions)} government positions with names")
@@ -138,29 +139,19 @@ except Exception as e:
     gov_positions = pd.DataFrame()
 
 # reform id_parliament to int
-gov_positions['id_parliament'] = gov_positions['id_parliament'].astype(int)
-
-merged_df = contact_df
 
 # Add government positions
-merged_df['government_position'] = ''
+contact_df['government_position'] = ''
 
-if not gov_positions.empty and not merged_df.empty:
+if not gov_positions.empty and not contact_df.empty:
     # Merge government positions
-    position_matches = merged_df.merge(
-        gov_positions[['name_post', 'id_parliament']], 
-        on='id_parliament',
+    contact_df = contact_df.merge(
+        gov_positions[['id_parliament', 'name_post']].drop_duplicates('id_parliament'),
+        on='id_parliament', 
         how='left'
     )
-    
-    # Update government position column
-    merged_df['government_position'] = position_matches['name_post'].fillna('')
-    
-    # Count matches
-    matches = (merged_df['government_position'] != '').sum()
-    print(f"Matched {matches} MPs with government positions")
-else:
-    print("No government position matching performed")
+    contact_df['government_position'] = contact_df['name_post'].fillna('')
+    print(contact_df[['id_parliament', 'government_position']].head())
 
 # Create final contact sheet with required columns
 print("Creating final contact sheet...")
@@ -181,8 +172,8 @@ final_columns = {
 # Create the final DataFrame with only the columns we need
 contact_sheet = pd.DataFrame()
 for old_col, new_col in final_columns.items():
-    if old_col in merged_df.columns:
-        contact_sheet[new_col] = merged_df[old_col]
+    if old_col in contact_df.columns:
+        contact_sheet[new_col] = contact_df[old_col]
     else:
         contact_sheet[new_col] = ''
 

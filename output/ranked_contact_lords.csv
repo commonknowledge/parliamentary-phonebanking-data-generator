@@ -1,23 +1,33 @@
 id_parliament,First name,Last name,Full name,Party,Government position,Phone,Parliamentary phone number,Constituency phone number,Parliamentary email address,Constituency email address
+5120,Shockat,Adam,Shockat Adam,Independent,,0116 507 8089,,0116 507 8089,,
+4790,Apsana,Begum,Apsana Begum,Independent,,0207 219 6826,0207 219 6826,,apsana.begum.mp@parliament.uk,
 4357,Kirsty,Blackman,Kirsty Blackman,Scottish National Party,,020 7219 8791,020 7219 8791,Call: 01224 633285; Text: 07464 606650,kirsty.blackman.mp@parliament.uk,kirsty.blackman.mp@parliament.uk
+185,Jeremy,Corbyn,Jeremy Corbyn,Independent,,020 7219 3545,020 7219 3545,,jeremy.corbyn.mp@parliament.uk,
 5177,Ann,Davies,Ann Davies,Plaid Cymru,,01267 892442,,01267 892442,,
 4736,Dave,Doogan,Dave Doogan,Scottish National Party,,0207 219 3000,0207 219 3000,01307 804 185,dave.doogan.mp@parliament.uk,
 4846,Colum,Eastwood,Colum Eastwood,Social Democratic & Labour Party,,0207 219 3000,0207 219 3000,,colum.eastwood.mp@parliament.uk,
 4735,Stephen,Flynn,Stephen Flynn,Scottish National Party,,01224 213114,,01224 213114,,
 4434,Stephen,Gethins,Stephen Gethins,Scottish National Party,,01382 623200,,01382 623200,,
 4827,Claire,Hanna,Claire Hanna,Social Democratic & Labour Party,,0207 219 3000,0207 219 3000,028 9099 6066,claire.hanna.mp@parliament.uk,
+467,Lindsay,Hoyle,Sir Lindsay Hoyle,Speaker,,020 7219 3000,020 7219 3000,01257 271555,,Lindsay.hoyle.mp@parliament.uk
+5231,Adnan,Hussain,Mr Adnan Hussain,Independent,,01254 643337,,01254 643337,,
+5357,Ayoub,Khan,Ayoub Khan,Independent,,0121 798 1000,,0121 798 1000,,
 4630,Ben,Lake,Ben Lake,Plaid Cymru,,01570 940 333,,01570 940 333,,
 4403,Chris,Law,Chris Law,Scottish National Party,,01382 848906,,01382 848906,,
 5280,Seamus,Logan,Seamus Logan,Scottish National Party,,01346 487013,,01346 487013,,
+5268,Iqbal,Mohamed,Iqbal Mohamed,Independent,,07899 617148,,07899 617148,,
 4371,Brendan,O'Hara,Brendan O'Hara,Scottish National Party,,020 7219 8783,020 7219 8783,,brendan.ohara.mp@parliament.uk,
 5135,Oliver,Ryan,Oliver Ryan,Independent,,01282 216398,,01282 216398,,
 4521,Liz,Saville Roberts,Liz Saville Roberts,Plaid Cymru,,020 7219 6876,020 7219 6876,01341 422 661,liz.savilleroberts.mp@parliament.uk,liz.savilleroberts.mp@parliament.uk
+4786,Zarah,Sultana,Zarah Sultana,Independent,,0207 219 8079,0207 219 8079,0207 219 8079,zarah.sultana.mp@parliament.uk,coventrysouth@parliament.uk
 1440,Pete,Wishart,Pete Wishart,Scottish National Party,,020 7219 8303,020 7219 8303,01738 639598,pete.wishart.mp@parliament.uk,
+172,Diane,Abbott,Ms Diane Abbott,Labour,,020 7219 4426,020 7219 4426,,diane.abbott.office@parliament.uk,
 4212,Debbie,Abrahams,Debbie Abrahams,Labour,,020 7219 1041,020 7219 1041,0161 624 4248,abrahamsd@parliament.uk,abrahamsd@parliament.uk
 5213,Zubir,Ahmed,Dr Zubir Ahmed,Labour,,0141 266 0233,,0141 266 0233,,
 5112,Luke,Akehurst,Luke Akehurst,Labour,,0191 371 8834,,0191 371 8834,,
 4138,Rushanara,Ali,Rushanara Ali,Labour,,020 7219 7200,020 7219 7200,,rushanara.ali.mp@parliament.uk,
 4573,Rosena,Allin-Khan,Dr Rosena Allin-Khan,Labour,,020 3621 2509,020 3621 2509,020 3621 2509,rosena.allinkhan.mp@parliament.uk,rosena@drrosena.co.uk
+4788,Fleur,Anderson,Fleur Anderson,Labour,,0207 219 3000,0207 219 3000,,fleur.anderson.mp@parliament.uk,
 4623,Tonia,Antoniazzi,Tonia Antoniazzi,Labour,,0207 219 1199,0207 219 1199,01792 899025,tonia.antoniazzi.mp@parliament.uk,
 5212,Scott,Arthur,Dr Scott Arthur,Labour,,0131 322 3225,,0131 322 3225,,
 5211,James,Asser,James Asser,Labour,,0208 103 6936,,0208 103 6936,,
@@ -28,12 +38,17 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 5175,Alex,Barros-Curtis,Mr Alex Barros-Curtis,Labour,,0207 219 6387,0207 219 6387,029 2078 6418,alex.barroscurtis.mp@parliament.uk,
 5063,Johanna,Baxter,Johanna Baxter,Labour,,020 7219 8493,020 7219 8493,,johanna.baxter.mp@parliament.uk,
 394,Clive,Betts,Mr Clive Betts,Labour,,020 7219 5114,020 7219 5114,0114 275 7788,officeofclivebettsmp@parliament.uk,
+4864,Olivia,Blake,Olivia Blake,Labour,,0207 219 3552,0207 219 3552,,olivia.blake.mp@parliament.uk,
 5257,Rachel,Blake,Rachel Blake,Labour (Co-op),,0207 219 6543,0207 219 6543,,rachel.blake.mp@parliament.uk,
 5109,Chris,Bloore,Chris Bloore,Labour,,01527 362815,,01527 362815,,
 5084,Elsie,Blundell,Mrs Elsie Blundell,Labour,,01706 436329,,01706 436329,,
 5236,Jade,Botterill,Jade Botterill,Labour,,0207 219 7012,0207 219 7012,01924 208354,jade.botterill.mp@parliament.uk,jade.botterill.mp@parliament.uk
 5128,Phil,Brickell,Phil Brickell,Labour,,01204 958436,,01204 958436,,
+1446,Chris,Bryant,Chris Bryant,Labour,,020 7219 8315,020 7219 8315,01443 442521,chris.bryant.mp@parliament.uk,garethw.hughes@parliament.uk
 5171,Julia,Buckley,Julia Buckley,Labour,,020 7219 7706,020 7219 7706,01743 650434,julia.buckley.mp@parliament.uk,
+1489,Dawn,Butler,Dawn Butler,Labour,,020 7219 8591,020 7219 8591,,dawn.butler.mp@parliament.uk,
+4831,Ian,Byrne,Ian Byrne,Labour,,0207 219 3000,0207 219 3000,0151 222 2345,ian.byrne.mp@parliament.uk,
+1171,Liam,Byrne,Liam Byrne,Labour,,020 7219 6953,020 7219 6953,0121 789 7287,liam.byrne.mp@parliament.uk,
 4389,Ruth,Cadbury,Ruth Cadbury,Labour,,020 7219 8590,020 7219 8590,0208 581 3646,ruthcadburymp@parliament.uk,ruth@ruthcadbury.org.uk
 529,Alan,Campbell,Sir Alan Campbell,Labour,,020 7219 6619,020 7219 6619,0191 257 1927,alan.campbell.mp@parliament.uk,
 5145,Irene,Campbell,Irene Campbell,Labour,,01294 493839,,01294 493839,,
@@ -42,29 +57,38 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4267,Sarah,Champion,Sarah Champion,Labour,,01709 331035,,01709 331035,,
 4610,Bambos,Charalambous,Bambos Charalambous,Labour,,0207 219 3460,0207 219 3460,,bambos.charalambous.mp@parliament.uk,
 5199,Luke,Charters,Mr Luke Charters,Labour,,01904 463 444,,01904 463 444,,
+4822,Feryal,Clark,Feryal Clark,Labour,,0208 804 4543,,0208 804 4543,,feryal.clark.mp@parliament.uk
 5344,Ben,Coleman,Ben Coleman,Labour,,020 7381 2047,,020 7381 2047,,
 5087,Tom,Collins,Tom Collins,Labour,,07543 467626,07543 467626,,tom.collins.mp@parliament.uk,
 5132,Liam,Conlon,Liam Conlon,Labour,,020 8016 6604,,020 8016 6604,,
 5088,Sarah,Coombes,Sarah Coombes,Labour,,020 7219 3445,020 7219 3445,0121 389 3982,sarah.coombes.mp@parliament.uk,
+420,Yvette,Cooper,Yvette Cooper,Labour,,020 7219 5080,020 7219 5080,01977 553388,coopery@parliament.uk,coopery@parliament.uk
+4368,Neil,Coyle,Neil Coyle,Labour,,020 7219 7650,020 7219 7650,020 7232 4640,neil.coyle.mp@parliament.uk,
 5056,Jen,Craft,Jen Craft,Labour,,0207 219 7830,0207 219 7830,0207 219 7830,jen.craft.mp@parliament.uk,jen.craft.mp@parliament.uk
 1579,Mary,Creagh,Mary Creagh,Labour,,0247 7180 425,,0247 7180 425,,
 4088,Stella,Creasy,Ms Stella Creasy,Labour (Co-op),,020 7219 6980,020 7219 6980,020 8521 1223,stella.creasy.mp@parliament.uk,office@workingforwalthamstow.org.uk
 4391,Judith,Cummins,Judith Cummins,Labour,,020 7219 8607,020 7219 8607,01274 924280,judith.cummins.mp@parliament.uk,judith.cummins.mp@parliament.uk
 5118,Chris,Curtis,Chris Curtis,Labour,,01908 464531,,01908 464531,,
+4698,Janet,Daby,Janet Daby,Labour,,02084 614733,,02084 614733,,
 4056,Nicholas,Dakin,Sir Nicholas Dakin,Labour,,01724 500684,,01724 500684,,
 4981,Ashley,Dalton,Ashley Dalton,Labour,,020 7219 0005,020 7219 0005,,ashley.dalton.mp@parliament.uk,
 5317,Paul,Davies,Paul Davies,Labour,,01484 598600,,01484 598600,,
 5041,Shaun,Davies,Shaun Davies,Labour,,01952 973 714,01952 973 714,,shaun.davies.mp@parliament.uk,
 4849,Alex,Davies-Jones,Alex Davies-Jones,Labour,,0207 219 4981,0207 219 4981,01443 401122,alex.daviesjones.mp@parliament.uk,
+4676,Marsha,De Cordova,Marsha De Cordova,Labour,,0207 219 0209,0207 219 0209,,marsha.decordova.mp@parliament.uk,
 4976,Samantha,Dixon,Samantha Dixon,Labour,,020 7219 3000,020 7219 3000,01244 343 229,Samantha.dixon.mp@parliament.uk,
 4657,Anneliese,Dodds,Anneliese Dodds,Labour (Co-op),,0207 219 2705,0207 219 2705,01865 595 790,anneliese.dodds.mp@parliament.uk,anneliese.dodds.casework@parliament.uk
 4397,Peter,Dowd,Peter Dowd,Labour,,020 7219 8671,020 7219 8671,0151 933 8432,peter.dowd.mp@parliament.uk,
 5359,Neil,Duncan-Jordan,Neil Duncan-Jordan,Labour,,01202 160740,01202 160740,01202 160740,neil.duncanjordan.mp@parliament.uk,
+491,Angela,Eagle,Dame Angela Eagle,Labour,,020 7219 5057,020 7219 5057,0151 637 1979,eaglea@parliament.uk,
+483,Maria,Eagle,Maria Eagle,Labour,,020 7219 0551,020 7219 0551,0151 448 1167,maria.eagle.mp@parliament.uk,
 5298,Lauren,Edwards,Lauren Edwards,Labour,,0207 219 7667,,0207 219 7667,,
 5001,Sarah,Edwards,Sarah Edwards,Labour,,01827 794 475,01827 794 475,01827 794 475,sarah.edwards.mp@parliament.uk,
 165,Clive,Efford,Clive Efford,Labour,,020 7219 4057,020 7219 4057,020 8850 5744,,clive.efford.mp@parliament.uk
 5228,Maya,Ellis,Maya Ellis,Labour,,01254 964055,01254 964055,01254 964055,maya.ellis.mp@parliament.uk,maya.ellis.casework@parliament.uk
+4572,Chris,Elmore,Chris Elmore,Labour,,0207 219 3000,0207 219 3000,01656 860034,Chris.Elmore.mp@parliament.uk,Chris.Elmore.mp@parliament.uk
 5095,Kirith,Entwistle,Kirith Entwistle,Labour,,0207 219 5696,0207 219 5696,01204 860027,kirith.entwistle.mp@parliament.uk,
+4870,Florence,Eshalomi,Florence Eshalomi,Labour (Co-op),,0207 219 6552,0207 219 6552,,florence.eshalomi.mp@parliament.uk,
 4061,Bill,Esterson,Bill Esterson,Labour,,020 7219 0463,020 7219 0463,0151 531 8433,bill.esterson.mp@parliament.uk,
 5099,Miatta,Fahnbulleh,Miatta Fahnbulleh,Labour (Co-op),,02072197634,02072197634,,miatta.fahnbulleh.mp@parliament.uk,
 5148,Hamish,Falconer,Mr Hamish Falconer,Labour,,01522 449638,01522 449638,01522 449638,hamish.falconer.mp@parliament.uk,
@@ -76,14 +100,19 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4491,Vicky,Foxcroft,Vicky Foxcroft,Labour,,020 7219 5934,020 7219 5934,020 8469 4638,vicky.foxcroft.mp@parliament.uk,
 5184,Daniel,Francis,Daniel Francis,Labour,,0207 219 5278,0207 219 5278,,daniel.francis.mp@parliament.uk,
 4571,Gill,Furniss,Gill Furniss,Labour,,0207 219 0364,0207 219 0364,0114 234 9079,gill.furniss.mp@parliament.uk,
+146,Barry,Gardiner,Barry Gardiner,Labour,,020 7219 4046,020 7219 4046,,barry.gardiner.mp@parliament.uk,
 5353,Anna,Gelderd,Anna Gelderd,Labour,,0778 3636 284,,0778 3636 284,,
 5185,Alan,Gemmell,Alan Gemmell,Labour,,01294 448 605,,01294 448 605,,alan.gemmell.mp@parliament.uk
 5181,Becky,Gittins,Becky Gittins,Labour,,01352 871130,,01352 871130,,becky.gittins.mp@parliament.uk
+4126,Mary,Glindon,Mary Glindon,Labour,,020 7219 3000,020 7219 3000,0191 234 2493,mary.glindon.mp@parliament.uk,
 5036,Jodie,Gosling,Jodie Gosling,Labour,,020 7219 2421,020 7219 2421,,jodie.gosling.mp@parliament.uk,
 5305,Georgia,Gould,Georgia Gould,Labour,,020 8968 7999,020 8968 7999,,georgia.gould.mp@parliament.uk,
 5170,John,Grady,John Grady,Labour,,0141 737 1115,,0141 737 1115,,
+1541,Nia,Griffith,Dame Nia Griffith,Labour,,020 7219 4903,020 7219 4903,01554 756374,nia.griffith.mp@parliament.uk,
+415,Fabian,Hamilton,Fabian Hamilton,Labour,,020 7219 3493,020 7219 3493,0113 249 6600,fabian.hamilton.mp@parliament.uk,fabian.hamilton.mp@parliament.uk
 4938,Paulette,Hamilton,Paulette Hamilton,Labour,,0121 306 4275,,0121 306 4275,,paulette.hamilton.mp@parliament.uk
 4645,Emma,Hardy,Emma Hardy,Labour,,01482 219211,,01482 219211,,
+4480,Carolyn,Harris,Carolyn Harris,Labour,,020 7219 4316,020 7219 4316,01792 462054,carolyn.harris.mp@parliament.uk,
 4510,Helen,Hayes,Helen Hayes,Labour,,020 7219 6971,020 7219 6971,,helen.hayes.mp@parliament.uk,
 5210,Tom,Hayes,Tom Hayes,Labour,,01202 029181,,01202 029181,,
 400,John,Healey,John Healey,Labour,,020 7219 4031,020 7219 4031,01709 875943,john.healey.mp@parliament.uk,john.healey.mp@parliament.uk
@@ -93,28 +122,41 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 1521,Sharon,Hodgson,Mrs Sharon Hodgson,Labour,,020 7219 5160,020 7219 5160,0191 417 2000,sharon.hodgson.mp@parliament.uk,sharon.hodgson.mp@parliament.uk
 4873,Rachel,Hopkins,Rachel Hopkins,Labour,,0207 219 8424,0207 219 8424,01582 457774,rachel.hopkins.mp@parliament.uk,
 4511,Rupa,Huq,Dr Rupa Huq,Labour,,020 7219 6865,020 7219 6865,,rupa.huq.mp@parliament.uk,
+4394,Imran,Hussain,Imran Hussain,Labour,,020 7219 8636,020 7219 8636,01274 231527,imran.hussain.mp@parliament.uk,
 5290,Leigh,Ingham,Leigh Ingham,Labour,,020 7219 7757,020 7219 7757,01785 59 49 49,leigh.ingham.mp@parliament.uk,
 5119,Natasha,Irons,Natasha Irons,Labour,,020 7219 6733,020 7219 6733,020 8191 2482,natasha.irons.mp@parliament.uk,
 5178,Sally,Jameson,Sally Jameson,Labour (Co-op),,020 7219 7105,020 7219 7105,01302 326297,sally.jameson.mp@parliament.uk,
+4243,Dan,Jarvis,Dan Jarvis,Labour,,0207 219 1082,0207 219 1082,01226 787893,dan.jarvis.mp@parliament.uk,dan.jarvis.mp@parliament.uk
 1533,Diana,Johnson,Dame Diana Johnson,Labour,,020 7219 5647,020 7219 5647,01482 319135,johnsond@parliament.uk,johnsond@parliament.uk
+4824,Kim,Johnson,Kim Johnson,Labour,,0207 219 3000,0207 219 3000,0151 709 4120,kim.johnson.mp@parliament.uk,
+4621,Darren,Jones,Darren Jones,Labour,,0207 219 5225,0207 219 5225,0117 959 6545,darren.jones.mp@parliament.uk,
 4501,Gerald,Jones,Gerald Jones,Labour,,020 7219 5874,020 7219 5874,01685 383 739,gerald.jones.mp@parliament.uk,gerald.jones.mp@parliament.uk
 5258,Louise,Jones,Louise Jones,Labour,,01246 439120,,01246 439120,,
 4716,Ruth,Jones,Ruth Jones,Labour,,020 7219 8921,020 7219 8921,01633 256268,ruth.jones.mp@parliament.uk,
 5247,Sojan,Joseph,Sojan Joseph,Labour,,020 7219 4535,020 7219 4535,01233 515107,sojan.joseph.mp@parliament.uk,
 5230,Warinder,Juss,Warinder Juss,Labour,,01902 902040,,01902 902040,,
+4603,Preet,Kaur Gill,Preet Kaur Gill,Labour (Co-op),,0207 219 2879,0207 219 2879,0121 392 8426,preet.gill.mp@parliament.uk,
+4753,Mary,Kelly Foy,Mary Kelly Foy,Labour,,0207 219 3000,0207 219 3000,0191 374 1915,mary.foy.mp@parliament.uk,
+4026,Liz,Kendall,Liz Kendall,Labour,,020 7219 3000,020 7219 3000,0116 204 4980,liz.kendall.mp@parliament.uk,
 4671,Afzal,Khan,Afzal Khan,Labour,,020 7219 3570,020 7219 3570,0161 226 5546,afzal.khan.mp@parliament.uk,afzal.khan.mp@parliament.uk
 4359,Stephen,Kinnock,Stephen Kinnock,Labour,,020 7219 8801,020 7219 8801,,stephen.kinnock.mp@parliament.uk,
 5274,Sonia,Kumar,Sonia Kumar,Labour,,01384 885959,,01384 885959,,
 4505,Peter,Kyle,Peter Kyle,Labour,,020 7219 1897,020 7219 1897,01273 933 380,peter.kyle.mp@parliament.uk,hove.portslade@parliament.uk
+4139,Ian,Lavery,Ian Lavery,Labour,,020 7219 3000,020 7219 3000,01670 852494,ian.lavery.mp@parliament.uk,
 5302,Noah,Law,Noah Law,Labour,,020 7219 7751,020 7219 7751,,noah.law.mp@parliament.uk,
+4923,Kim,Leadbeater,Kim Leadbeater,Labour,,020 7219 4594,020 7219 4594,01924 975758,kim.leadbeater.mp@parliament.uk,
 4277,Emma,Lewell,Emma Lewell,Labour,,020 7219 4468,020 7219 4468,0191 427 1240,emma.lewell-buck.mp@parliament.uk,
 5061,Andrew,Lewin,Andrew Lewin,Labour,,01707 912 213,,01707 912 213,,
+4500,Clive,Lewis,Clive Lewis,Labour,,0207 219 2700,0207 219 2700,0207 219 2700,clive.lewis.mp@parliament.uk,casework@clivelewis.org
 4943,Simon,Lightwood,Simon Lightwood,Labour (Co-op),,01924 682269,,01924 682269,,
+4396,Rebecca,Long Bailey,Rebecca Long Bailey,Labour,,0161 425 3738,,0161 425 3738,,
 5134,Andy,MacNae,Andy MacNae,Labour,,01706 489387,,01706 489387,,
 3914,Shabana,Mahmood,Shabana Mahmood,Labour,,0121 661 9440,0121 661 9440,,shabana.mahmood.mp@parliament.uk,
 5057,Douglas,McAllister,Douglas McAllister,Labour,,0141 286 0290,,0141 286 0290,,
 1491,Kerry,McCarthy,Kerry McCarthy,Labour,,020 7219 4510,020 7219 4510,0117 939 9901,kerry.mccarthy.mp@parliament.uk,
 5129,Martin,McCluskey,Martin McCluskey,Labour,,020 7219 8353,020 7219 8353,01475 789223,martin.mccluskey.mp@parliament.uk,
+193,Siobhain,McDonagh,Dame Siobhain McDonagh,Labour,,020 7219 4678,020 7219 4678,020 8542 4835,mcdonaghs@parliament.uk,siobhain@mmlp.org.uk
+4269,Andy,McDonald,Andy McDonald,Labour,,020 7219 4995,020 7219 4995,01642 246574,andy.mcdonald.2nd@parliament.uk,
 5037,Lola,McEvoy,Lola McEvoy,Labour,,01325 526655,,01325 526655,,
 1587,Pat,McFadden,Pat McFadden,Labour,,020 7219 4036,020 7219 4036,01902 405762,mcfaddenp@parliament.uk,
 4083,Alison,McGovern,Alison McGovern,Labour,,020 7219 7190,020 7219 7190,0151 645 6590,alison.mcgovern.mp@parliament.uk,
@@ -125,6 +167,8 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 5094,Julie,Minns,Ms Julie Minns,Labour,,020 7219 1306,020 7219 1306,01228 479441,julie.minns.mp@parliament.uk,Julie.minns.casework@parliament.uk
 4811,Navendu,Mishra,Navendu Mishra,Labour,,0161 480 0833,,0161 480 0833,,
 1548,Jessica,Morden,Jessica Morden,Labour,,020 7219 6213,020 7219 6213,01633 841725,mordenj@parliament.uk,
+4653,Stephen,Morgan,Stephen Morgan,Labour,,0207 219 3906,0207 219 3906,023 9229 1088,stephen.morgan.mp@parliament.uk,
+3973,Grahame,Morris,Grahame Morris,Labour,,020 7219 1283,020 7219 1283,0191 527 9091,grahame.morris.mp@parliament.uk,
 5272,Margaret,Mullane,Margaret Mullane,Labour,,020 8984 7854,020 8984 7854,,margaret.mullane.mp@parliament.uk,
 3966,Ian,Murray,Ian Murray,Labour,,020 7219 7064,020 7219 7064,0131 662 4520,ian.murray.mp@parliament.uk,ian.murray.mp@parliament.uk
 4797,James,Murray,James Murray,Labour (Co-op),,020 7219 3931,020 7219 3931,,james.murray.mp@parliament.uk,
@@ -135,11 +179,17 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4464,Melanie,Onn,Melanie Onn,Labour,,020 7219 7185,020 7219 7185,01472 352490,melanie.onn.mp@parliament.uk,
 4124,Chi,Onwurah,Dame Chi Onwurah,Labour,,020 7219 7114,020 7219 7114,0191 232 5838,chi.onwurah.mp@parliament.uk,
 4820,Abena,Oppong-Asare,Ms Abena Oppong-Asare,Labour,,0207 219 4892,0207 219 4892,01322 342991,,abena.oppongasare.mp@parliament.uk
+4515,Kate,Osamor,Kate Osamor,Labour (Co-op),,020 7219 6602,020 7219 6602,,kate.osamor.mp@parliament.uk,
+4783,Kate,Osborne,Kate Osborne,Labour,,0191 466 1509,0191 466 1509,0191 466 1509,kate.osborne.mp@parliament.uk,
+4779,Taiwo,Owatemi,Taiwo Owatemi,Labour,,020 7219 5842,020 7219 5842,024 7767 2089,taiwo.owatemi.mp@parliament.uk,Taiwo.owatemi.mp@parliament.uk
 4777,Sarah,Owen,Sarah Owen,Labour,,020 7219 8409,020 7219 8409,01582 488208,sarah.owen.mp@parliament.uk,sarah.owen.mp@parliament.uk
 5243,Andrew,Pakes,Andrew Pakes,Labour (Co-op),,07737 823717,,07737 823717,,
 5162,Matthew,Patrick,Matthew Patrick,Labour,,0207 219 7907,0207 219 7907,0151 319 3998,matthew.patrick.mp@parliament.uk,
 5115,Jon,Pearce,Jon Pearce,Labour,,01298 918189,,01298 918189,,
 4520,Matthew,Pennycook,Matthew Pennycook,Labour,,020 7219 6280,020 7219 6280,,matthew.pennycook.mp@parliament.uk,
+3952,Toby,Perkins,Mr Toby Perkins,Labour,,020 7219 2320,020 7219 2320,01246 386286,toby.perkins.mp@parliament.uk,
+4370,Jess,Phillips,Jess Phillips,Labour,,020 7219 8703,020 7219 8703,0121 708 2412,jess.phillips.mp@parliament.uk,
+4046,Bridget,Phillipson,Bridget Phillipson,Labour,,020 7219 7087,020 7219 7087,0191 584 4317,bridget.phillipson.mp@parliament.uk,
 5360,David,Pinto-Duschinsky,David Pinto-Duschinsky,Labour,,020 7219 7280,020 7219 7280,,david.pintoduschinsky.mp@parliament.uk,
 4673,Jo,Platt,Jo Platt,Labour (Co-op),,01942 950219,,01942 950219,,
 5144,Richard,Quigley,Mr Richard Quigley,Labour,,01983 244980,,01983 244980,,
@@ -162,28 +212,35 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4638,Tanmanjeet,Singh Dhesi,Mr Tanmanjeet Singh Dhesi,Labour,,0207 219 1946,0207 219 1946,,tan.dhesi.mp@parliament.uk,
 5059,Gurinder,Singh Josan,Gurinder Singh Josan,Labour,,0121 423 2933,,0121 423 2933,,cs@gsjosan.co.uk
 1516,Andy,Slaughter,Andy Slaughter,Labour,,020 7219 4990,020 7219 4990,020 7610 1950,slaughtera@parliament.uk,andy@andyslaughter.com
+4456,Jeff,Smith,Jeff Smith,Labour,,020 7219 5878,020 7219 5878,0161 445 0678,jeff.smith.mp@parliament.uk,
 3928,Nick,Smith,Nick Smith,Labour,,020 7219 7018,020 7219 7018,01495 313167,nick.smith.mp@parliament.uk,
 5117,Sarah,Smith,Sarah Smith,Labour,,01254 926 487,,01254 926 487,,
+4444,Karin,Smyth,Karin Smyth,Labour,,0117 953 3575,,0117 953 3575,,
 4595,Gareth,Snell,Gareth Snell,Labour (Co-op),,01782 971949,,01782 971949,,
 4658,Alex,Sobel,Alex Sobel,Labour (Co-op),,0207 219 8295,0207 219 8295,0113 898 0969,alex.sobel.mp@parliament.uk,alex@alexsobel.co.uk
 5110,Euan,Stainbank,Euan Stainbank,Labour,,01324 868 715,,01324 868 715,,
 5206,Elaine,Stewart,Elaine Stewart,Labour,,01292 502058,,01292 502058,,
 5035,Will,Stone,Will Stone,Labour,,01793 540040,,01793 540040,,
 5000,Alistair,Strathern,Alistair Strathern,Labour,,020 7219 6004,020 7219 6004,,alistair.strathern.mp@parliament.uk,
+4504,Wes,Streeting,Wes Streeting,Labour,,020 7219 6132,020 7219 6132,0203 475 7901,wes.streeting.mp@parliament.uk,
 5165,Peter,Swallow,Peter Swallow,Labour,,01344 918 198,01344 918 198,,peter.swallow.mp@parliament.uk,
 1383,Mark,Tami,Sir Mark Tami,Labour,,020 7219 8174,020 7219 8174,01244 819854,tamim@parliament.uk,
 5065,Rachel,Taylor,Rachel Taylor,Labour,,024 7630 9901,,024 7630 9901,,
 5174,Fred,Thomas,Fred Thomas,Labour,,01752 373404,,01752 373404,,fred.thomas.mp@parliament.uk
+177,Gareth,Thomas,Gareth Thomas,Labour (Co-op),,020 7219 4243,020 7219 4243,020 8861 6300,gareth.thomas.mp@parliament.uk,gareth.thomas.mp@parliament.uk
 4479,Nick,Thomas-Symonds,Nick Thomas-Symonds,Labour,,020 7219 4294,020 7219 4294,01495 740498,nick.thomassymonds.mp@parliament.uk,
+1536,Emily,Thornberry,Emily Thornberry,Labour,,020 7697 9307,,020 7697 9307,,emily.thornberry.mp@parliament.uk
 5098,Marie,Tidball,Dr Marie Tidball,Labour,,0207 219 7636,0207 219 7636,0114 3038050,marie.tidball.mp@parliament.uk,marie.tidball.casework@parliament.uk
 163,Stephen,Timms,Sir Stephen Timms,Labour,,020 7219 4000,020 7219 4000,,timmss@parliament.uk,
 5202,Jessica,Toale,Jessica Toale,Labour,,0207 219 2928,0207 219 2928,07300 218002,jessica.toale.mp@parliament.uk,
-5282,Dan,Tomlinson,Dan Tomlinson,Labour,,020 7219 6510,020 7219 6510,,dan.tomlinson.mp@parliament.uk,
+410,Jon,Trickett,Jon Trickett,Labour,,020 7219 5074,020 7219 5074,01977 655695,trickettj@parliament.uk,jtrickett@jontrickett.org.uk
 4449,Anna,Turley,Anna Turley,Labour (Co-op),,01642 929159,,01642 929159,,
+4030,Karl,Turner,Karl Turner,Labour,,020 7219 7088,020 7219 7088,01482 781019,karl.turner.mp@parliament.uk,
 5234,Laurence,Turner,Laurence Turner,Labour,,0121 516 5770,,0121 516 5770,,
 4618,Liz,Twist,Liz Twist,Labour,,0207 219 2221,0207 219 2221,0191 414 2488,liz.twist.mp@parliament.uk,
 5289,Harpreet,Uppal,Harpreet Uppal,Labour,,020 7219 6164,020 7219 6164,01484 248797,harpreet.uppal.mp@parliament.uk,harpreet.uppal.mp@parliament.uk
 4076,Valerie,Vaz,Valerie Vaz,Labour,,020 7219 2237,020 7219 2237,01922 635835,valerie.vaz.mp@parliament.uk,
+4871,Christian,Wakeford,Christian Wakeford,Labour,,020 7219 6437,020 7219 6437,01615330801,christian.wakeford.mp@parliament.uk,
 5136,Imogen,Walker,Imogen Walker,Labour,,020 7219 3167,020 7219 3167,01698 694 019,imogen.walker.mp@parliament.uk,
 5276,Chris,Ward,Chris Ward,Labour,,020 7219 2076,020 7219 2076,01273 082531,chris.ward.mp@parliament.uk,
 5071,Paul,Waugh,Paul Waugh,Labour (Co-op),,01706 391482,,01706 391482,,
@@ -193,6 +250,7 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4979,Andrew,Western,Andrew Western,Labour,,0161 749 9120,,0161 749 9120,,
 4617,Matt,Western,Matt Western,Labour,,0207 219 2051,0207 219 2051,01926 882006,matt.western.mp@parliament.uk,
 5242,Michael,Wheeler,Michael Wheeler,Labour,,0161 768 4134,0161 768 4134,0161 768 4134,michael.wheeler.mp@parliament.uk,michael.wheeler.mp@parliament.uk
+4869,Nadia,Whittome,Nadia Whittome,Labour,,0207 219 3000,0207 219 3000,0115 6971757,nadia.whittome.mp@parliament.uk,
 5328,Sean,Woodcock,Sean Woodcock,Labour,,01295 981131,,01295 981131,,sean.woodcock.casework@parliament.uk
 5267,Yuan,Yang,Yuan Yang,Labour,,0118 324 0847,0118 324 0847,,yuan.yang.mp@parliament.uk,
 4598,Mohammad,Yasin,Mohammad Yasin,Labour,,0207 219 1513,0207 219 1513,01234 346525,mohammad.yasin.mp@parliament.uk,office@mohammadyasin.org
@@ -260,6 +318,7 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 373,David,Davis,David Davis,Conservative,,020 7219 5900,020 7219 5900,01405 767969,david.davis.mp@parliament.uk,
 4008,Caroline,Dinenage,Dame Caroline Dinenage,Conservative,,020 7219 7078; 020 7219 0198,020 7219 7078; 020 7219 0198,023 9252 2121,caroline.dinenage.mp@parliament.uk,
 4441,Oliver,Dowden,Sir Oliver Dowden,Conservative,,020 7219 3415,020 7219 3415,,oliver.dowden.mp@parliament.uk,
+152,Iain,Duncan Smith,Sir Iain Duncan Smith,Conservative,,020 7219 2667; 020 7219 2664,020 7219 2667; 020 7219 2664,,Iain.duncansmith.mp@parliament.uk,
 4781,Luke,Evans,Dr Luke Evans,Conservative,,0207 219 3000,0207 219 3000,,luke.evans.mp@parliament.uk,
 5209,Peter,Fortune,Peter Fortune,Conservative,,020 7219 6033,020 7219 6033,,peter.fortune.mp@parliament.uk,
 5101,Ashley,Fox,Sir Ashley Fox,Conservative,,01278 811 007,,01278 811 007,,
@@ -305,6 +364,7 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 5340,Jack,Rankin,Jack Rankin,Conservative,,020 7219 1233,020 7219 1233,,jack.rankin.mp@parliament.uk,
 1447,Andrew,Rosindell,Andrew Rosindell,Conservative,,020 7219 8475,020 7219 8475,01708 766700,andrew.rosindell.mp@parliament.uk,andrew@rosindell.com
 4872,David,Simmonds,David Simmonds,Conservative,,0207 219 6578,0207 219 6578,0203 545 2462,david.simmonds.mp@parliament.uk,
+4778,Greg,Smith,Greg Smith,Conservative,,0207 219 4287,0207 219 4287,,greg.smith.mp@parliament.uk,
 4118,Julian,Smith,Sir Julian Smith,Conservative,,020 7219 7145,020 7219 7145,,julian.smith.mp@parliament.uk,
 4785,Ben,Spencer,Dr Ben Spencer,Conservative,,0207 219 6783,0207 219 6783,,ben.spencer.mp@parliament.uk,
 5351,Gregory,Stafford,Gregory Stafford,Conservative,,01428 892 643,,01428 892 643,,
@@ -318,8 +378,11 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4787,James,Wild,James Wild,Conservative,,0207 219 3000,0207 219 3000,,james.wild.mp@parliament.uk,
 4384,Mike,Wood,Mike Wood,Conservative,,020 7219 6982,020 7219 6982,01384 913123,mike.wood.mp@parliament.uk,
 1560,Jeremy,Wright,Sir Jeremy Wright,Conservative,,020 7219 2008,020 7219 2008,01926 853650,Jeremy.wright.mp@parliament.uk,jeremy@jeremywright.org.uk
+4747,Tahir,Ali,Tahir Ali,Labour,Minister for Homelessness and Democracy,020 7219 3000,020 7219 3000,0121 714 0034,tahir.ali.mp@parliament.uk,
+413,Hilary,Benn,Hilary Benn,Labour,Parliamentary Secretary,020 7219 5770,020 7219 5770,0113 244 1097,bennh@parliament.uk,boxj@parliament.uk
 5283,Alison,Bennett,Alison Bennett,Liberal Democrat,Minister for Pensions,020 7219 4117,020 7219 4117,01444 224458,alison.bennett.mp@parliament.uk,
 4613,Alex,Burghart,Alex Burghart,Conservative,"Minister for Creative Industries, Arts and Tourism",0207 219 1613,0207 219 1613,,alex.burghart.mp@parliament.uk,
+4493,Richard,Burgon,Richard Burgon,Labour,Minister for Data Protection and Telecoms,020 7219 5980,020 7219 5980,0113 232 3266,richard@richardburgon.com,
 4765,Wendy,Chamberlain,Wendy Chamberlain,Liberal Democrat,Minister for Veterans and People,0207 219 4409,0207 219 4409,01334 656361,wendy.chamberlain.mp@parliament.uk,
 5311,Harriet,Cross,Harriet Cross,Conservative,Minister for Nature,020 7219 8333,020 7219 8333,01467 538601,harriet.cross.mp@parliament.uk,
 188,Ed,Davey,Ed Davey,Liberal Democrat,Minister for Public Health and Prevention,020 7219 4530,020 7219 4530,020 8288 2736,edward.davey.mp@parliament.uk,edward.davey.mp@parliament.uk
@@ -327,10 +390,12 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4616,Rosie,Duffield,Rosie Duffield,Independent,"Minister for Europe, North America and Overseas Territories",0207 219 1183,0207 219 1183,0203 545 2453,rosie.duffield.mp@parliament.uk,enquiries@rosieduffieldmp.co.uk
 4040,Chris,Evans,Chris Evans,Labour (Co-op),Comptroller of HM Household (Senior Whip),020 7219 5025,020 7219 5025,01495 231990,chris.evans.mp@parliament.uk,
 1591,Tim,Farron,Tim Farron,Liberal Democrat,Minister for Energy Consumers,020 7219 8519,020 7219 8519,01539 723403,tim.farron.mp@parliament.uk,tim@timfarron.co.uk
+4029,Lilian,Greenwood,Lilian Greenwood,Labour,Parliamentary Secretary,020 7219 7122,020 7219 7122,0115 711 7000,lilian.greenwood.mp@parliament.uk,
 1506,Andrew,Gwynne,Andrew Gwynne,Independent,Minister for the Future of Roads,020 7219 4708,020 7219 4708,0161 320 1504,gwynnea@parliament.uk,
 350,John,Hayes,Sir John Hayes,Conservative,Minister for Water and Flooding,020 7219 1389,020 7219 1389,01775 711534,hayesj@parliament.uk,davieshm@parliament.uk
 4631,Sarah,Jones,Sarah Jones,Labour,Chief Secretary to the Treasury,0207 219 2963,0207 219 2963,0208 191 7066,sarah.jones.mp@parliament.uk,
 5155,Chris,Kane,Chris Kane,Labour,Minister for Industry,01786 652345,,01786 652345,,
+4316,Mike,Kane,Mike Kane,Labour,Minister for Industry,020 7219 7524,020 7219 7524,0161 499 7900,mike.kane.mp@parliament.uk,
 5278,Uma,Kumaran,Uma Kumaran,Labour,Minister for Care,020 7219 7777,020 7219 7777,,uma.kumaran.mp@parliament.uk,
 5033,Josh,MacAlister,Josh MacAlister,Labour,Minister for Local Transport,01946 458023,,01946 458023,,hello@joshmacalister.uk
 5133,Alice,Macdonald,Alice Macdonald,Labour (Co-op),Minister for Climate,0207 219 7118,0207 219 7118,01603 733182 (casework); 01603 531584 (general),alice.macdonald.mp@parliament.uk,
@@ -339,14 +404,17 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4495,Kit,Malthouse,Kit Malthouse,Conservative,"Minister for Employment Rights, Competition and Markets",020 7219 5605,020 7219 5605,,kit.malthouse.mp@parliament.uk,
 4993,Keir,Mather,Keir Mather,Labour,Minister for Migration and Citizenship,01757 247 990,,01757 247 990,,keir.mather.mp@parliament.uk
 5214,Brian,Mathew,Brian Mathew,Liberal Democrat,Minister for Equalities,01225 434216,,01225 434216,,
+178,John,McDonnell,John McDonnell,Independent,Assistant Whip (HM Treasury),0207 219 4100,0207 219 4100,020 8569 0010,mcdonnellj@parliament.uk,
 4632,Anna,McMorrin,Anna McMorrin,Labour,Minister for Intergovernmental Relations,0207 219 4307,0207 219 4307,02920 624 440,anna.mcmorrin.mp@parliament.uk,
 4084,Esther,McVey,Esther McVey,Conservative,Minister for School Standards,020 7219 3226,020 7219 3226,01625 529922,esther.mcvey.mp@parliament.uk,
 5346,Calum,Miller,Calum Miller,Liberal Democrat,Assistant Whip (HM Treasury),01869520123,,01869520123,,
 1512,David,Mundell,David Mundell,Conservative,Minister for Early Education,020 7219 4895,020 7219 4895,01683 222746,david.mundell.mp@parliament.uk,david@davidmundell.com
 5030,Simon,Opher,Dr Simon Opher,Labour,"Minister for Building Safety, Fire and Local Growth",02072 197116,02072 197116,01453 621304,simon.opher.mp@parliament.uk,
+4066,Priti,Patel,Priti Patel,Conservative,Parliamentary Secretary,020 7219 3528,020 7219 3528,,withammp@parliament.uk,
 4607,Stephanie,Peacock,Stephanie Peacock,Labour,Lord Commissioner (Whip),0207 219 4129,0207 219 4129,01226 743 483,stephanie.peacock.mp@parliament.uk,stephanie.peacock.mp@parliament.uk
 5233,Lee,Pitcher,Lee Pitcher,Labour,Minister for Housing and Planning,01302 802090,,01302 802090,,
 4682,Luke,Pollard,Luke Pollard,Labour (Co-op),Minister for Safeguarding and Violence Against Women and Girls,0207 219 2749,0207 219 2749,01752 717 255,luke.pollard.mp@parliament.uk,luke.pollard.mp@parliament.uk
+4263,Lucy,Powell,Lucy Powell,Labour (Co-op),Minister for Women and Equalities,020 7219 4402,020 7219 4402,020 3084 9046,contact@lucypowell.org.uk,
 5159,Connor,Rand,Mr Connor Rand,Labour,Lord President of the Council,0161 938 0080,,0161 938 0080,,
 5046,Andrew,Ranger,Andrew Ranger,Labour,Leader of the House of Commons,0207 219 8995,0207 219 8995,,andrew.ranger.mp@parliament.uk,
 4457,Marie,Rimmer,Ms Marie Rimmer,Labour,Minister without Portfolio,020 7219 4847,020 7219 4847,01744 752075,marie.rimmer.mp@parliament.uk,marie.rimmer.mp@parliament.uk
@@ -356,4 +424,5 @@ id_parliament,First name,Last name,Full name,Party,Government position,Phone,Par
 4780,Laura,Trott,Laura Trott,Conservative,"Minister for Services, Small Business and Exports",020 7219 6898,020 7219 6898,,laura.trott.mp@parliament.uk,
 5121,Henry,Tufnell,Henry Tufnell,Labour,Minister for the Constitution and European Relations,020 7219 7669,020 7219 7669,01437 650088,henry.tufnell.mp@parliament.uk,
 4462,Tom,Tugendhat,Tom Tugendhat,Conservative,Paymaster General,01732 441563,01732 441563,,tom.tugendhat.mp@parliament.uk,
+429,Derek,Twigg,Derek Twigg,Labour,Minister for Social Security and Disability,020 7219 1039,020 7219 1039,0151 424 7030,derek.twigg.mp@parliament.uk,
 4108,Gavin,Williamson,Sir Gavin Williamson,Conservative,Minister for Transformation,020 7219 4519,020 7219 4519,01785 847037,gavin.williamson.mp@parliament.uk,

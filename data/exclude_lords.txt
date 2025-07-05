@@ -1,4 +1,3 @@
-
 # Labour friends of Israel in Lords
 Donald Anderson, Baron Anderson of Swansea
 Baroness Armstrong of Hill Top
@@ -36,3 +35,50 @@ Lord Watts
 Lord Winston
 Lord Wood of Anfield
 Lord Young of Norwood Green
+
+# International Relations and Defence Committee
+Lord De Mauley
+Lord Alderdice
+Rt Hon. Baroness Blackstone
+Rt Hon. Lord Bruce of Bennachie
+Baroness Coussins
+Baroness Crawley
+Lord Darroch of Kew KCMG
+Baroness Fraser of Craigmaddie
+Rt Hon. Lord Grocott
+Lord Houghton of Richmond GCB CBE DL
+Baroness Morris of Bolton OBE
+Rt Hon. Lord Soames of Fletching
+
+# Justice and Home Affairs Committee
+Rt Hon. Lord Foster of Bath
+Lord Bach
+Baroness Bertin
+Baroness Buscombe
+Baroness Cash
+Lord Filkin CBE
+Rt Hon. Lord Henley
+Rt Hon. Baroness Hughes of Stretford
+Lord Tope CBE
+
+# Intelligence and Security Committee of Parliament
+Rt Hon. Lord Beamish
+Baroness Brown of Cambridge DBE FREng FRS
+Rt Hon. Lord West of Spithead GCB DSC
+
+# National Security Strategy (Joint Committee)
+Rt Hon. Lord Boateng
+Baroness Fall MBE
+Rt Hon. Lord Hutton of Furness
+Rt Hon. Lord Robathan
+Lord Sarfraz
+Lord Sedwill GCMG
+Lord Tunnicliffe CBE
+Lord Watts
+
+# People who've spoken in favour of the bill
+Lord Walney
+
+# People who're organising against the bill
+Baroness Jones of Moulsecoomb
+Baroness Shami Chakrabarti
